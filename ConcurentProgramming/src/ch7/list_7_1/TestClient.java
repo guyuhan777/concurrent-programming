@@ -8,7 +8,7 @@ public class TestClient {
 	public static List<BigInteger> aSecondOfPrimes() throws InterruptedException {
 		PrimeGenerator generator = new PrimeGenerator();
 		new Thread(generator).start();
-		System.out.println("--------------start--------------");
+		System.out.println("--------------start---------------");
 		try {
 			Thread.sleep(1000);
 		}finally{
